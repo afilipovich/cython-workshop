@@ -1,6 +1,5 @@
 import itertools
 
-from pprint import pprint
 from cpython.mem cimport PyMem_Malloc, PyMem_Realloc, PyMem_Free
 
 cdef struct sack_item:
